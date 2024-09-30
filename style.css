@@ -1,0 +1,21 @@
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+.box2 {
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+
+.slider {
+    margin-block: 1rem;
+    padding: 1rem;
+    border-radius: .5rem;
+    border: .2rem solid rgba(0, 0, 0, 0.05);
+}

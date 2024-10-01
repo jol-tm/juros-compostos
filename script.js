@@ -17,9 +17,9 @@ tempo.addEventListener("input", () => {
 })
 
 function getValues(){
-    capIniDis.innerText = capIni.value;
-    jurosDis.innerText = juros.value;
-    tempoDis.innerText = tempo.value;
+    capIniDis.innerText = `R$${capIni.value}`;
+    jurosDis.innerText = `${juros.value}%`;
+    tempoDis.innerText = `${tempo.value} anos`;
     calc();
 
 }

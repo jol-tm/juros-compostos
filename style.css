@@ -1,3 +1,16 @@
+/* Small Devices, Tablets */
+@media only screen and (min-width : 0) {
+    .box1 {
+        scale: .9;
+    }
+}
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .box1 {
+        scale: 1;
+    }
+}
+
 .box1 {
     display: flex;
     justify-content: center;
@@ -22,7 +35,8 @@
 
 #resultado {
     width: 20rem;
-    overflow-x: auto;
+    overflow-x: scroll;
     overflow-y: hidden;
     scrollbar-width: thin;
+    padding-bottom: 1rem;
 }

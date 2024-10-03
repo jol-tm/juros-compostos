@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     
     function calc(){
-        let montante = (capIni.value * ((1 + juros.value / 100) ** tempo.value)).toFixed(2).replaceAll(".", ",");
+        let montante = (capIni.value * ((1 + juros.value / 100) ** tempo.value)).toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
         res.innerText = `R$${montante}`;
     }
     
